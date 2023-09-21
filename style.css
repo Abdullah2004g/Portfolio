@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url(img/WhatsApp\ Image\ 2023-09-18\ at\ 1.03.48\ PM.jpeg);
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  border-bottom: 2px solid rgb(58, 51, 56);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  padding: 0px 20px;
+  font-weight: 700px;
+}
+header nav h1 span {
+  color: crimson;
+}
+header nav button {
+  padding: 10px 20px;
+  border: none;
+  background: crimson;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+header .content-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+  height: 400px;
+  justify-content: center;
+}
+header .content-left h6 {
+  color: #cda4cd;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+header .content-left h2 {
+  font-size: 80px;
+  margin: 15px 0;
+}
+header .content-left h2 span {
+  color: crimson;
+}
+header .content-left h4 {
+  font-size: 14px;
+}
+
+header nav button:hover {
+  transform: scale(1.1);
+}
+header .content-left .form {
+  margin-top: 24px;
+}
+header .content-left .form input[type="text"] {
+  border: none;
+  padding: 10px;
+  border-radius: 35pc;
+  width: 300px;
+  outline: 2px solid crimson;
+}
+header .content-left .form button {
+  padding: 8px 20px;
+  border: none;
+  background: crimson;
+  border-radius: 35px;
+  position: absolute;
+  left: 307px;
+  bottom: 234px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.about {
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 2px solid rgb(58, 51, 56);
+}
+.about .content-left img {
+  width: 300px;
+  height: auto;
+}
+.about .content-right {
+  color: white;
+  margin-left: 24px;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+}
+.about .content-right h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.about .content-right h6 {
+  font-size: 20px;
+  font-weight: 400px;
+}
+.about .content-right h6 span {
+  color: crimson;
+}
+.about .content-right p {
+  font-size: 16px;
+  word-spacing: 2px;
+  color: rgb(182, 155, 189);
+  margin: 24px 0;
+  line-height: 23px;
+}
+.about .content-right button {
+  border: none;
+  outline: none;
+  background: crimson;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 700px;
+  border-radius: 50px;
+}
+
+.cards {
+  background-color: rgb(25, 25, 25);
+  height: 100vh;
+  border-bottom: 2px solid rgb(58, 51, 56);
+}
+.cards h1 {
+  color: white;
+  text-align: center;
+  padding: 24px;
+  font-size: 50px;
+}
+.card-perant {
+  display: flex;
+  justify-content: center;
+}
+.card-perant .card {
+  width: 24%;
+  background-color: #212121;
+  height: 400px;
+  margin: 24px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.card-perant .card .icon {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.card-perant .card .icon i {
+  font-size: 2rem;
+  color: crimson;
+}
+.card-perant .card .text p {
+  font-size: 16px;
+  color: #cda4cd;
+  word-spacing: 2px;
+  padding: 5px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.card-perant .card .text button {
+  padding: 8px 20px;
+  border: none;
+  background: crimson;
+  border-radius: 35px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.hir-me {
+  height: 50vh;
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(58, 51, 56);
+}
+.hir-me .text-hir-me {
+  width: 100%;
+  text-align: center;
+}
+.hir-me .text-hir-me .icon i {
+  font-size: 2rem;
+  color: #cda4cd;
+}
+.hir-me .text-hir-me h2 {
+  color: #cda4cd;
+  font-size: x-large;
+  font-weight: 700;
+  margin: 24px;
+}
+.hir-me .text-hir-me button {
+  padding: 8px 20px;
+  border: none;
+  background: crimson;
+  border-radius: 35px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+footer {
+  height: 50vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer .text-footer {
+  width: 50%;
+  text-align: center;
+  padding: 24px;
+}
+footer .text-footer .icon i {
+  font-size: 3rem;
+  margin: 24px;
+  color: rgb(229, 41, 79);
+}
+footer .text-footer h2 {
+  margin-bottom: 24px;
+}
+footer .text-footer p {
+  color: #cda4cd;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+footer .text-footer .icons {
+  border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+}
+footer .text-footer a {
+  text-decoration: none;
+  color: rgb(229, 41, 79);
+  font-size: 2rem;
+  margin: 15px;
+}
+/* rgb(37,211,102) */
+
+footer .whats i{
+  color: rgb(37,211,102);
+  font-size: 3rem;
+  position: absolute;
+  right: 14px;
+  bottom: 24px;
+  position: fixed;
+ 
+
+}
